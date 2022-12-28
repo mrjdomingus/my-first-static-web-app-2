@@ -1,4 +1,14 @@
 {
+    "routes": [
+        {
+            "route": "/logout",
+            "rewrite": "/.auth/logout"
+          },
+        {
+            "route": "/login",
+            "rewrite": "/.auth/login/aad"
+            }
+    ],
     "navigationFallback": {
         "rewrite": "/index.html"
     }
